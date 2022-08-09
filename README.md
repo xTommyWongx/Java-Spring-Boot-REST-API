@@ -1,7 +1,7 @@
 # Java Spring Boot RESTful API
 
 # ERD(v1)
-![alt text](https://github.com/xTommyWongx/Java-Spring-Boot-REST-API/blob/[branch]/src/main/resources/static/ERD.png)
+![alt text](https://github.com/xTommyWongx/Java-Spring-Boot-REST-API/blob/main/src/main/resources/static/ERD.png)
 
 
 # Start Database
