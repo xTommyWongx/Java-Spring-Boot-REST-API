@@ -1,0 +1,24 @@
+version: "3.8"
+services:
+#  db:
+#    container_name: mssql
+#    image: mcr.microsoft.com/mssql/server:2019-latest
+##    hostname: "mssql"
+#    environment:
+#      - ACCEPT_EULA=Y
+#      - MSSQL_SA_PASSWORD=mssqlPassword1111
+#      - MSSQL_DB=shoppingsite
+#      - MSSQL_USER=admin
+#      - MSSQL_PASSWORD=tommy0911
+#    ports:
+#      - 1433:1433
+
+    db:
+      image: mysql:5.7
+      environment:
+        - MYSQL_ROOT_PASSWORD=password
+        - MYSQL_DATABASE=shoppingsite
+        - MYSQL_USER=user
+        - MYSQL_PASSWORD=password
+      ports:
+        - 3306:3306
